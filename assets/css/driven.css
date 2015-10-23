@@ -1,0 +1,40 @@
+@import url(../fonts/SweetPea/sweetpea.css);
+
+/* Font Overrides */
+	h1{ font-family: "Sweet Pea",cursive; }
+
+	html, body, div, span, applet, object, iframe,
+	h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, font, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	button, input, select, textarea
+	{
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	}
+
+/* Style Overrides */
+	.page-header .page-title, .page-header .page-description{
+		text-shadow: none;
+	}
+
+/* Homepage Styles */
+	/* Homepage Table Structure */
+	body{ border-color: transparent!important;}
+	body.page-template-template-splash{ text-align: center; }
+	.homepage{ width: 100vw; height: 100vh; display: table-cell; vertical-align: middle; margin: auto;}
+	
+	/* Homepage Logo */
+	.homepage .homepage-logo{ display: block;}
+
+	/* Homepage Navigation */
+	.homepage .homepage-nav{ display: table; table-layout: fixed;}
+	.homepage .homepage-nav ul{ display: table-row;}
+	.homepage .homepage-nav ul li{ list-style-type: none; padding: 0; margin: 0; text-transform: lowercase; display: table-cell; text-align: center;}
+
+	/* General Sets */
+	.homepage .homepage-logo, .homepage .homepage-nav{ width: 100%; max-width: 500px; margin: auto; text-align: center; padding: 0 20px;}
+	.homepage .homepage-logo img{ width: 100%; }

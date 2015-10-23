@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Sweet Pea';
+  src: url('SweetPea/sweetpea.eot?') format('eot'), url('SweetPea/sweetpea.woff') format('woff'), url('SweetPea/sweetpea.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Sweet Pea';
+  font-style: italic;
+  src: url('SweetPeaItalic/sweetpea-italic.eot?') format('eot'), url('SweetPeaItalic/sweetpea-italic.woff') format('woff'), url('SweetPeaItalic/sweetpea-italic.ttf') format('truetype');
+}
