@@ -42,6 +42,17 @@
 	register_nav_menus( 
 		array('homepage_nav' => 'Homepage Navigation')
 	);
+
+	/* 
+	****
+	Add CustomFields
+	****
+	*/
+
+	include('_includes/customFields.php');
+
+
+	
 	
 
 
